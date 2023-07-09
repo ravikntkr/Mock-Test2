@@ -1,0 +1,40 @@
+#posts-container {
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  gap: 1%;
+  flex-wrap: wrap;
+  padding: 30px;
+}
+
+.post {
+  width: 28.5%;
+  background-color: #63cdda;
+  margin: 15px 10px;
+  border-radius: 6px;
+  padding: 20px;
+  font-family: sans-serif;
+}
+
+.post h3 {
+  font-size: 20px;
+}
+
+/* CSS for the skeleton loader */
+.skeleton-loader {
+  width: 31.2%;
+  height: 180px;
+  margin: 15px 10px;
+  border-radius: 6px;
+  background-color: #f1f1f1;
+  animation: skeleton-loading 1s infinite alternate;
+}
+
+@keyframes skeleton-loading {
+  0% {
+    background-color: #63ccda20;
+  }
+  100% {
+    background-color: #63ccda3f;
+  }
+}
